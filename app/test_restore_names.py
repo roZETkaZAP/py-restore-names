@@ -1,5 +1,5 @@
-import pytest
 from app.restore_names import restore_names
+
 
 def test_if_first_name_not_in_user() -> None:
     users = [{"full_name": "John Smith"}]
